@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - PayPal SOAP API client
 Summary(pl.UTF-8):	%{_pearname} - klient API SOAP PayPal
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
+Version:	0.3.1
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	8a6f70188b1e1abdff82fc4427e649ff
+# Source0-md5:	8808276d9490a456f4029a83250df59a
 URL:		http://pear.php.net/package/Payment_PayPal_SOAP/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -36,9 +36,9 @@ Ta klasa ma w PEAR status: %{_status}.
 Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
-AutoReq:	no
 Requires:	%{name} = %{version}-%{release}
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
