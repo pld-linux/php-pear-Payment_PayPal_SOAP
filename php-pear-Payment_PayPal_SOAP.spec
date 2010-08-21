@@ -1,13 +1,13 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Payment
 %define		_subclass	PayPal_SOAP
-%define		_status		alpha
+%define		_status		beta
 %define		_pearname	Payment_PayPal_SOAP
 Summary:	%{_pearname} - PayPal SOAP API client
 Summary(pl.UTF-8):	%{_pearname} - klient API SOAP PayPal
 Name:		php-pear-%{_pearname}
 Version:	0.3.1
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
