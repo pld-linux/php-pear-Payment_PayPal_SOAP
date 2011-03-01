@@ -7,7 +7,7 @@ Summary:	%{_pearname} - PayPal SOAP API client
 Summary(pl.UTF-8):	%{_pearname} - klient API SOAP PayPal
 Name:		php-pear-%{_pearname}
 Version:	0.3.1
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
