@@ -1,6 +1,5 @@
 %define		status		beta
 %define		pearname	Payment_PayPal_SOAP
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - PayPal SOAP API client
 Summary(pl.UTF-8):	%{pearname} - klient API SOAP PayPal
 Name:		php-pear-%{pearname}
